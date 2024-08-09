@@ -59,13 +59,14 @@ Your users should be able to:
 - `yarn install` at the root
 - `yarn frontend:start` - starts the frontend project
 - `yarn frontend:build` - builds the frontend project
-- `yarn frontend:preview` - starts the Storybook project
-- `yarn backend:start` - starts the backend project - *this won't work until you have the backend setup*
+- `yarn frontend:preview` - previews the frontend project
+- `yarn storybook:build` - builds the Storybook project
 - `yarn storybook:start` - starts the Storybook project
-- `yarn components:build` - builds the components
-- `yarn components:start` - starts the components
-- `yarn db:populate` - seeds the database with some starting data
-- `yarn kysely:generate` - introspects and generates the database files
+- `yarn components:build` - builds the Storybook project (same as storybook:build)
+- `yarn components:start` - starts the Storybook project (same as storybook:start)
+- `yarn data:generate` - generates Prisma client
+- `yarn data:seed` - seeds the database with some starting data
+- `yarn data:migrate` - runs Prisma migrations
 
 ## Building Your Project
 
