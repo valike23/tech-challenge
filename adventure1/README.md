@@ -1,10 +1,8 @@
 ![preview](https://github.com/user-attachments/assets/40215a49-d8ae-4196-8dc7-006fdab35c49)
 
-# Product Feedback App
-
 ## Welcome! 👋
 
-Welcome to the Product Feedback App technical challenge. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
+Welcome to the Product Feedback App technical assignment. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
 
 **To complete this challenge, you need a strong understanding of HTML, CSS, TypeScript, SvelteKit, SQL, and Node.js.**
 

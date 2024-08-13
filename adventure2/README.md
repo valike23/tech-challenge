@@ -1,11 +1,9 @@
 
 ![desktop-preview](https://github.com/user-attachments/assets/c03c8daa-f465-415d-a1f5-2a5ab3e07642)
 
-# Product Feedback App
-
 ## Welcome! 👋
 
-Welcome to the Tellimer Rock, Paper, Scissors Game technical test. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
+Welcome to the Rock, Paper, Scissors Game technical assignment. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
 
 **To complete this challenge, you need a strong understanding of HTML, CSS, TypeScript, Svelte, SQL, and Node.js.**
 
