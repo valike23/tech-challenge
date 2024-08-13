@@ -6,7 +6,7 @@
 
 Welcome to the Tellimer Take-Home Assignment Repository!
 
-Congratulations on reaching this stage of our hiring process. We're excited to present you with two engaging projects that will allow you to showcase your skills and creativity. Each project offers a unique challenge, designed to test your full-stack development capabilities with a focus on frontend implementation using SvelteKit and Storybook.
+Congratulations on reaching this stage of our interview process. We're excited to present you with two engaging projects that will allow you to showcase your skills and creativity. Each project offers a unique challenge, designed to test your full-stack development capabilities with a focus on frontend implementation using SvelteKit and Storybook.
 
 ## Project Options
 
