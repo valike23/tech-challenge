@@ -52,8 +52,8 @@ If the player wins, they gain 1 point. If the computer wins, the player loses 1 
 
 ### Nice to Have
 
-- Accessibility: Ensure correct navigation through the page and components using the tab key.
-- API integration testing using Jest or Vitest.
+- Animations: nice page transitions and component animations using sveltes native in-built animation library.
+- Authentication: basic JWT token-based authentication.
 - CI/CD deployments to Vercel and backend deployment.
 
 ## Project Setup
