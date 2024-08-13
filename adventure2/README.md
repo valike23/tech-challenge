@@ -14,9 +14,8 @@ Your task is to build a Rock, Paper, Scissors game using the provided design fil
 Your users should be able to:
 
 - View the optimal layout for the game depending on their device's screen size.
+- Maintain the state of the score after refreshing the browser using Prisma and SQLite.
 - Play Rock, Paper, Scissors against the computer.
-- **Bonus**: Maintain the state of the score after refreshing the browser.
-- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer.
 
 ### Game Rules
 
