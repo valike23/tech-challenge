@@ -2808,7 +2808,7 @@ __metadata:
     "@sveltejs/adapter-auto": "npm:^3.0.0"
     "@sveltejs/kit": "npm:^2.0.0"
     "@sveltejs/vite-plugin-svelte": "npm:^3.0.0"
-    "@tech-challenge/ui-components": "workspace:*"
+    "@tech-challenge/ui-components": "workspace:^"
     "@types/eslint": "npm:^9.6.0"
     autoprefixer: "npm:^10.4.20"
     eslint: "npm:^9.0.0"
@@ -2838,7 +2838,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tech-challenge/ui-components@workspace:*, @tech-challenge/ui-components@workspace:packages/ui-components":
+"@tech-challenge/ui-components@workspace:^, @tech-challenge/ui-components@workspace:packages/ui-components":
   version: 0.0.0-use.local
   resolution: "@tech-challenge/ui-components@workspace:packages/ui-components"
   dependencies:
