@@ -1,9 +1,9 @@
-
 <p align="left">
-  <img src="path/to/logo.png" alt="Tellimer Logo">
+  <img width="230" src="https://github.com/user-attachments/assets/8734ce19-49aa-46ff-81c2-4eef33a23ed0" alt="Tellimer Logo">
 </p>
 
-# Take Home Assignments
+
+# Tellimer Tech Challenges
 
 Welcome to the Tellimer take home assignment repository! This repository contains two exciting projects for candidates to choose from. Please select one project that you prefer to build. There is no wrong choice; pick the one that appeals to you the most.
 
