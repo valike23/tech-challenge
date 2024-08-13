@@ -5,40 +5,50 @@
 
 ## Welcome! 👋
 
-Welcome to the Tellimer Product Feedback App technical test. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
+Welcome to the Tellimer Rock, Paper, Scissors Game technical test. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
 
 **To complete this challenge, you need a strong understanding of HTML, CSS, TypeScript, Svelte, SQL, and Node.js.**
 
 ## The Challenge
 
-Your task is to build a product feedback application using the provided design files. You will receive a starter repository with a SvelteKit app, a Storybook component library, and two data packages. Additionally, you will get environment variables to connect to a Neon Postgres database or use a local SQLite database, along with the Figma design and challenge files.
+Your task is to build a Rock, Paper, Scissors game using the provided design files. You will receive a starter repository with a SvelteKit app, a Storybook component library, and necessary data packages. Additionally, you will get environment variables to connect to a database, along with the Figma design and challenge files.
 
 Your users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size.
-- See hover states for all interactive elements on the page.
-- Create, read, update, and delete product feedback requests.
-- Receive form validations when trying to create/edit feedback requests.
-- Sort suggestions by most/least upvotes and most/least comments.
-- Filter suggestions by category.
-- Add comments and replies to a product feedback request.
-- Upvote product feedback requests.
-- Persist the data using SQLite.
+- View the optimal layout for the game depending on their device's screen size.
+- Play Rock, Paper, Scissors against the computer.
+- **Bonus**: Maintain the state of the score after refreshing the browser.
+- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer.
+
+### Game Rules
+
+If the player wins, they gain 1 point. If the computer wins, the player loses 1 point.
+
+#### Original Version
+
+- Paper beats Rock.
+- Rock beats Scissors.
+- Scissors beats Paper.
+
+#### Bonus Version
+
+- Scissors beats Paper.
+- Paper beats Rock.
+- Rock beats Lizard.
+- Lizard beats Spock.
+- Spock beats Scissors.
+- Scissors beats Lizard.
+- Paper beats Spock.
+- Rock beats Scissors.
+- Lizard beats Paper.
+- Spock beats Rock.
 
 ### Expected Behavior
 
-- **Suggestions Page**: Only show product feedback requests with a status of `suggestion`.
-- **Roadmap**:
-  - Display feedback requests with a status of `planned`, `in-progress`, or `live`.
-  - Organize columns by upvote totals.
-- **Creating a Product Request**:
-  - Assign a new ID that increments the current highest product request ID by 1.
-  - Set the default status for new feedback to `suggestion`.
-- **Editing Feedback**:
-  - Move feedback through the roadmap based on status updates (`planned`/`in-progress`/`live`).
-- **Add Comments/Replies**:
-  - Populate user data for new comments or replies using data from the `currentUser` object in the `data.json` file.
-  - Limit comments/replies to 250 characters.
+- **Main Game**: Display the game with options to play Rock, Paper, Scissors or the bonus version with Rock, Paper, Scissors, Lizard, Spock.
+- **Score Tracking**: Keep track of the player's score and ensure it persists even after refreshing the browser.
+- **Responsive Design**: Ensure the game looks great on devices of all sizes.
+- **Accessibility**: Make sure all interactive elements are accessible and navigable via the keyboard.
 
 ### Nice to Have
 
@@ -49,9 +59,9 @@ Your users should be able to:
 ## Project Setup
 
 1. **Clone the Repository**: Start by cloning or forking the provided starter repository.
-2. **Environment Setup**: Use the provided environment variables to connect to the Neon Postgres database.
+2. **Environment Setup**: Use the provided environment variables to connect to the database.
 3. **Design Files**: We will send you the Figma design and challenge files via email.
-4. **Component Library**: Utilize the Storybook component library to build your UI components and integrate them into the app.
+4. **Component Library**: Utilize the Storybook component library to build your UI components and integrate them into the game.
 
 ## Running the Project Locally
 
@@ -74,15 +84,15 @@ Your users should be able to:
 ## Building Your Project
 
 1. **Build Components**: Create the components as per the pixel-perfect design using Figma, Svelte, and TypeScript.
-2. **Implement Functionality**: Ensure the app functions as described in the challenge requirements. Use Node.js and TypeScript for server-side with a backend stack of your choosing.
+2. **Implement Functionality**: Ensure the game functions as described in the challenge requirements. Use Node.js and TypeScript for server-side with a backend stack of your choosing.
 3. **Commit and Submit**: Commit your code to the forked public repository and inform us when you are done.
 4. **Bonus**: Deploy both backend and frontend (not a requirement).
 
 ## Submitting Your Solution
 
-1. **Deployment**: Deploy your application on Vercel.
-2. **Repository**: Commit your code to your public GitHub repository.
-3. **Notification**: Let us know when your project is complete and share the repository link.
+1. **Deployment**: If you deploy your application then provide a link to the live application.
+2. **Repository**: Commit your code to your public GitHub repository, again provide a link to the repository.
+3. **Notification**: Let us know when your project is complete and share the repository link..
 
 ## Technologies We Use
 

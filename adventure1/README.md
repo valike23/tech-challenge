@@ -4,9 +4,9 @@
 
 ## Welcome! 👋
 
-Welcome to the Tellimer Product Feedback App technical test. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
+Welcome to the Product Feedback App technical challenge. This challenge will help you showcase your skills by building a realistic project that can be a valuable addition to your portfolio.
 
-**To complete this challenge, you need a strong understanding of HTML, CSS, TypeScript, Svelte, SQL, and Node.js.**
+**To complete this challenge, you need a strong understanding of HTML, CSS, TypeScript, SvelteKit, SQL, and Node.js.**
 
 ## The Challenge
 
@@ -79,9 +79,9 @@ Your users should be able to:
 
 ## Submitting Your Solution
 
-1. **Deployment**: Deploy your application on Vercel.
-2. **Repository**: Commit your code to your public GitHub repository.
-3. **Notification**: Let us know when your project is complete and share the repository link.
+1. **Deployment**: If you deploy your application then provide a link to the live application.
+2. **Repository**: Commit your code to your public GitHub repository, again provide a link to the repository.
+3. **Notification**: Let us know when your project is complete and share the repository link..
 
 ## Technologies We Use
 
@@ -109,5 +109,5 @@ Here's a list of technologies we use. Feel free to choose something that we alre
 ## Support
 
 For any questions or feedback, please reach out to your Tellimer contact.
+🚀
 
-**Have fun building!** 🚀
