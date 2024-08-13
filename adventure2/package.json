@@ -19,8 +19,7 @@
     "data:migrate": "yarn workspace @tech-challenge/data-prisma migrate"
   },
   "dependencies": {
-    "@prisma/client": "^5.18.0",
-    "@tech-challenge/ui-components": "workspace:*"
+    "@prisma/client": "^5.18.0"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
