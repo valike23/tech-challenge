@@ -2,20 +2,20 @@
   <img width="230" src="https://github.com/user-attachments/assets/8734ce19-49aa-46ff-81c2-4eef33a23ed0" alt="Tellimer Logo">
 </p>
 
+# Tellimer Tech Adventures
 
-# Tellimer Tech Challenges
+Welcome to the Tellimer Take-Home Assignment Repository!
 
-Welcome to the Tellimer take home assignment repository! This repository contains two exciting projects for candidates to choose from. Please select one project that you prefer to build. There is no wrong choice; pick the one that appeals to you the most.
+Congratulations on reaching this stage of our hiring process. We're excited to present you with two engaging projects that will allow you to showcase your skills and creativity. Each project offers a unique challenge, designed to test your full-stack development capabilities with a focus on frontend implementation using SvelteKit and Storybook.
 
 ## Project Options
 
 ### Adventure 1: Product Feedback (Full Stack)
 
-This is a comprehensive full-stack project that comes with Figma files and a detailed brief.
+A comprehensive full-stack project that involves building a Product Feedback application.
 
 **Details:**
 
-- **Name**: Product Feedback
 - **Type**: Full Stack
 - **Frontend**: SvelteKit
 - **Component Library**: Storybook
@@ -24,32 +24,50 @@ This is a comprehensive full-stack project that comes with Figma files and a det
 
 ### Adventure 2: Rock Paper Scissors Game
 
-An engaging implementation of the classic Rock Paper Scissors game. Again comes with Figma files and a detailed brief.
+An interactive implementation of the classic Rock Paper Scissors game.
 
 **Details:**
 
-- **Name**: Rock Paper Scissors
 - **Type**: Full Stack
 - **Frontend**: SvelteKit
 - **Component Library**: Storybook
 - **Backend**: Your choice of technology stack
 - **Design**: Figma files provided
 
-## Common Requirements for Both Projects
+## Common Requirements
+
+Both projects share the following requirements:
 
 - Frontend: SvelteKit
-- Component Library: Storybook (you must build the components yourself as close to the design as possible)
+- Component Library: Storybook (build components yourself, closely matching the provided design)
 - Backend: Your choice of technology stack
 
 ## How to Proceed
 
 1. Clone this repository
 2. Review both project options
-3. Choose the adventure that interests you the most
-4. All necessary assets will be provided to you via email
-5. Each project has a dedicated README file with instructions on how to run the project and get started
-6. Follow the specific instructions provided for your chosen project
-7. Complete the assignment and submit your work as per the guidelines
+3. Choose the adventure that interests you most
+4. Access the necessary assets provided via email
+5. Refer to the dedicated README file in your chosen project's folder for specific instructions
+6. Complete the assignment following the provided guidelines
+7. Submit your work as instructed
 
-We're excited to see what you'll create! Good luck, and enjoy the process!
+We encourage you to select the project that aligns best with your interests and expertise. There's no right or wrong choice – we're interested in seeing your creative approach and technical skills in action.
+
+## Next Steps
+
+1. Carefully read through the project-specific README file
+2. Set up your development environment
+3. Plan your approach to the project
+4. Start coding and enjoy the process!
+
+## Submission Expectations
+
+We expect the submission of your completed project within 1 to 2 weeks from the date you receive this assignment. This timeframe should allow you to thoroughly work on the project while balancing your other commitments.
+
+We're excited to see what you'll create. Good luck, and most importantly, have fun with the challenge!
+
+If you have any questions or need clarification, don't hesitate to reach out to the your point of contact at Tellimer. We're here to support you throughout this process.
+
+Happy coding!
 
