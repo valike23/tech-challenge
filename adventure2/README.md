@@ -1,3 +1,6 @@
+
+![desktop-preview](https://github.com/user-attachments/assets/c03c8daa-f465-415d-a1f5-2a5ab3e07642)
+
 # Product Feedback App
 
 ## Welcome! 👋
