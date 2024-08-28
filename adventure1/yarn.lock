@@ -2707,7 +2707,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^3.0.0":
+"@sveltejs/adapter-auto@npm:^3.0.0, @sveltejs/adapter-auto@npm:^3.2.4":
   version: 3.2.4
   resolution: "@sveltejs/adapter-auto@npm:3.2.4"
   dependencies:
@@ -2805,7 +2805,7 @@ __metadata:
   resolution: "@tech-challenge/frontend@workspace:apps/frontend"
   dependencies:
     "@playwright/test": "npm:^1.28.1"
-    "@sveltejs/adapter-auto": "npm:^3.0.0"
+    "@sveltejs/adapter-auto": "npm:^3.2.4"
     "@sveltejs/kit": "npm:^2.0.0"
     "@sveltejs/vite-plugin-svelte": "npm:^3.0.0"
     "@tech-challenge/ui-components": "workspace:^"

@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -13,18 +7,52 @@ datasource db {
   url      = "file:../../db/dev.db"
 }
 
+model User {
+  id       Int       @id @default(autoincrement())
+  email    String    @unique
+  name     String?
+  posts    Post[]
+  comments Comment[]
+  replies  Reply[]
+}
+
 model Post {
-  id        Int     @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   title     String
   content   String?
-  published Boolean @default(false)
-  author    User?   @relation(fields: [authorId], references: [id]) 
+  published Boolean  @default(false)
+  author    User?    @relation(fields: [authorId], references: [id]) 
   authorId  Int?
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-  posts Post[]
+model Feedback {
+  id          Int        @id @default(autoincrement())
+  title       String
+  description String
+  category    String
+  status      String      @default("suggestion") // "suggestion", "planned", "in-progress", "live"
+  upvotes     Int         @default(0)
+  comments    Comment[]
+  createdAt   DateTime    @default(now())
+}
+
+model Comment {
+  id          Int        @id @default(autoincrement())
+  content     String
+  feedbackId  Int
+  feedback    Feedback    @relation(fields: [feedbackId], references: [id])
+  authorId    Int
+  author      User        @relation(fields: [authorId], references: [id])
+  replies     Reply[]
+  createdAt   DateTime    @default(now())
+}
+
+model Reply {
+  id          Int        @id @default(autoincrement())
+  content     String
+  commentId   Int
+  comment     Comment     @relation(fields: [commentId], references: [id])
+  authorId    Int
+  author      User        @relation(fields: [authorId], references: [id])
+  createdAt   DateTime    @default(now())
 }
