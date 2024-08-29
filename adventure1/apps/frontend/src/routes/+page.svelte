@@ -14,6 +14,7 @@
 	}
 
 	onMount(async () => {
+		goto('suggestions');
 		posts = await fetchPosts();
 		console.log(posts);
 	});
@@ -26,7 +27,7 @@
 	<div class="flex flex-col gap-2">
 	   <!-- This button is imported from the ui-components package -->
 		<Button variant="secondary" label="Good luck!" on:click={update}/>
-		<UpVoteButton />
+		<UpVoteButton count=2/>
 		<SortDropdown/>
 		<a href="/suggestions">suggestions</a>
 

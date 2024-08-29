@@ -29,6 +29,18 @@ export async function GET() {
     return json(feedbacks);
 }
 
+export async function PUT({ request, params }) {
+    const { id } = params as never;
+    const { title, description, category, status } = await request.json();
+
+    const updatedFeedback = await prisma.feedback.update({
+        where: { id: Number(id) },
+        data: { title, description, category, status },
+    });
+
+    return json(updatedFeedback);
+}
+
 export async function PATCH({ request, params }) {
     const { id } = params as never;
     const { title, description, category, status } = await request.json();
