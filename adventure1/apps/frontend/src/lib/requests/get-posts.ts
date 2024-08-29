@@ -22,3 +22,7 @@ export async function fetchPosts(): Promise<PostWithAuthor[]> {
 
 	return posts;
 }
+
+export async function fetchPost(){
+	
+}

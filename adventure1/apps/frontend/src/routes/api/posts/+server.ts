@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { RequestHandler } from '@sveltejs/kit';
 import prisma from '../../../lib/config/prisma-client';
 

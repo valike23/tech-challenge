@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { Button, Tag } from "@tech-challenge/ui-components";
 	import SortDropDown from "../../../../../packages/ui-components/dist/dropdowns/sort/SortDropDown.svelte";
-
+	import type { Feedback } from "@prisma/client";
+  let feedbacks: Feedback[] = [];
 
 </script>
 <svelte:head>
